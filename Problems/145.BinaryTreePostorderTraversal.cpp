@@ -86,5 +86,7 @@ int main()
 
     vector<int> result = postorderTraversal(root);
 
+    delete root;
+
     return 0;
 }

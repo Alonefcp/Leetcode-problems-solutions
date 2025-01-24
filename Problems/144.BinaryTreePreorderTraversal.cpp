@@ -86,5 +86,7 @@ int main()
 
     vector<int> result = preorderTraversal(root);
 
+    delete root;
+
     return 0;
 }

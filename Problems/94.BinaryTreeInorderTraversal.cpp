@@ -84,5 +84,7 @@ int main()
 
     vector<int> result = inorderTraversal(root);
 
+    delete root;
+
     return 0;
 }
